@@ -15,6 +15,9 @@ public class DataTypes {
         float floatNumb = 5.56f;
         System.out.println(floatNumb);
 
+        double doubleNumb = 34.321d;
+        System.out.println(doubleNumb);
+
 
     }
 }
