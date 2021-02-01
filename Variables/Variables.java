@@ -15,7 +15,7 @@ public class Variables {
         System.out.println("\n======================================================");
         name = "Allwell"; 
         /** name is now 'Allwell' and NOT 'yourname'
-         * This also applies for all data types
+         * This also applies for all other data types
         */
         System.out.println(name);
         
