@@ -1,17 +1,8 @@
 public class Operators {
     public static void main(String[] args) {
-        int sum1  = 100 + 50; // 150 (100 + 50)
-        int sum2 = sum1 + 250; // 400 (150 + 250)
-        int sum3 = sum2 + sum2; // 800 (400 + 400)
-
-        System.out.println(sum1);
-        System.out.println(sum2);
-        System.out.println(sum3);
-
         /**
          * Java divides the operators into the following groups:
          *  - Arithmetic Operators
-         *      [ '*' => Multiplication - Multiplies two values e.g. x * y ]
          *      [ '/' => Division - Divides one values by another e.g. x / y]
          *  - Assignment Operators
          *  - Comparison Operators
@@ -41,7 +32,24 @@ public class Operators {
            */
           int a = 5;
           int b = 2;
-          System.out.println("a - b = " + (a - b));
+          System.out.println("a - b = " + (a - b)); // Prints '3'
+
+          /**
+           * MULTIPLICATION(*)
+           * Multiplies two values e.g. x * y
+           */
+          int c = 5;
+          int d = 2;
+          System.out.println("c * d = " + (c * d)); // Prints '10'
+
+          /**
+           * DIVISION(/)
+           * Divides one value by another
+           */
+          double e = 5;
+          double f = 2;
+          System.out.println("e / f = " + (e / f)); // Prints '2.5'
+          
 
 
     }
