@@ -63,8 +63,18 @@ public class Operators {
           System.out.println("g % h = " + (g % h)); // Prints '1'
 
           /**
-           * INCREMENT 
+           * INCREMENT(++)
+           * Increases a value by 1 e.g. ++x
            */
+          int i = 5;
+          System.out.println("++i = "+ ++i); // Prints '6'
+
+          /**
+           * DECREAMENT(--)
+           * Decreament a value by 1 e.g. --x
+           */
+          int j = 5;
+          System.out.println("--j = " + --i);
           
 
     }
