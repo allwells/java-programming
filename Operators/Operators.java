@@ -10,11 +10,12 @@ public class Operators {
 
         /**
          * Java divides the operators into the following groups:
-         *  - Arithmetic Operators
-         *  - Assignment Operators
+         *  - Arithmetic Operators => { +, -, *, /, %, ++, -- }
+         *  - Assignment Operators => {  }
          *  - Comparison Operators
          *  - Logical Operators
          *  - Bitwise Operators
+         * 
          */
 
     }
