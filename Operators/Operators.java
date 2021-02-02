@@ -1,9 +1,13 @@
+/**
+ * @author Allwell Onen
+ * @since 2nd February, 2021
+ */
+
 public class Operators {
     public static void main(String[] args) {
         /**
          * Java divides the operators into the following groups:
          *  - Arithmetic Operators
-         *      [ '/' => Division - Divides one values by another e.g. x / y]
          *  - Assignment Operators
          *  - Comparison Operators
          *  - Logical Operators
@@ -13,7 +17,7 @@ public class Operators {
 
         /**
          * ARITHMETICAL OPERATORS
-         * They are used to perform mathematical operations.
+         * They are used to perform common mathematical operations.
          * They are grouped into 7:
          * Addition(+), Subtraction(-), Multiplication(*), Division(/), Modulus(%), Increment(++), Decrement(--)
          */
@@ -50,7 +54,18 @@ public class Operators {
           double f = 2;
           System.out.println("e / f = " + (e / f)); // Prints '2.5'
           
+          /**
+           * MODULUS(%)
+           * Modulus returns the remainder after division e.g. x % y
+           */
+          int g = 5;
+          int h = 2;
+          System.out.println("g % h = " + (g % h)); // Prints '1'
 
+          /**
+           * INCREMENT 
+           */
+          
 
     }
 }

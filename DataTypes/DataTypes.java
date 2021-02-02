@@ -1,3 +1,8 @@
+/**
+ * @author Allwell Onen
+ * @since 2nd February, 2021
+ */
+
 public class DataTypes {
     public static void main(String[] args) {
         byte byteNumb = 100;

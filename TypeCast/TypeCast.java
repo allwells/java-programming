@@ -1,3 +1,8 @@
+/**
+ * @author Allwell Onen
+ * @since 2nd February, 2021
+ */
+
 public class TypeCast {
     public static void main(String[] args) {
     /**
