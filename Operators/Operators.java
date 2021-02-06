@@ -74,7 +74,7 @@ public class Operators {
            * Decreament a value by 1 e.g. --x
            */
           int j = 5;
-          System.out.println("--j = " + --i);
+          System.out.println("--j = " + --j); //Prints '4'
           
 
     }
