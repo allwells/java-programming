@@ -213,18 +213,19 @@ public class Operators {
 
         /**
          * COMPARISON OPERATORS
-         * They are used to are used to assign values to variables.
+         * This operators compare two values and return either 'true' or 'false'
          * There are 6 comparison operators in java:
          * ==, !=, >, <, >= and <=
          */
                     /**
-                     * The 'Equal to' operator(==)
-                     * This operator compares two values e.g.
-                     * e.g1. x = 6;
+                     * The 'equal to' operator(==)
+                     * 
+                     * example 1:
+                     * x = 6;
                      * y = 4;
-                     * x == y;
                      * System.out.println(x == y); This returns 'false' because 'x' is not equal to 'y'
                      * 
+                     * example 2:
                      * w = 2;
                      * v = 2;
                      * System.out.println(w == v); This returns 'true' because 'w' is equal to 'v'
@@ -232,16 +233,126 @@ public class Operators {
 
 
                     /**
-                     * The 'Not Equal to' operator(!=)
-                     * This operator compares two values e.g.
-                     * e.g2. x = 6;
+                     * The 'not equal to' operator(!=)
+                     * 
+                     * example 1:
+                     * x = 6;
                      * y = 4;
-                     * x == y;
                      * System.out.println(x != y); This returns 'true' because 'x' is not equal to 'y'
                      * 
+                     * example 2:
                      * w = 2;
                      * v = 2;
                      * System.out.println(w != v); This returns 'false' because 'w' is equal to 'v'
+                     */
+
+
+                    /**
+                     * The 'greater than' operator(>)
+                     * 
+                     * example 1:
+                     * x = 6;
+                     * y = 4;
+                     * System.out.println(x > y); This returns 'true' because 'x' is greater than 'y'
+                     * 
+                     * example 2:
+                     * w = 2;
+                     * v = 2;
+                     * System.out.println(w > v); This returns 'false' because 'w' is not greater than 'v'
+                     */
+
+
+                    /**
+                     * The 'less than' operator(<)
+                     * 
+                     * example 1:
+                     * x = 6;
+                     * y = 4;
+                     * System.out.println(x < y); This returns 'false' because 'x' is not less than 'y'
+                     * 
+                     * example 2:
+                     * w = 1;
+                     * v = 2;
+                     * System.out.println(w < v); This returns 'true' because 'w' is less than 'v'
+                     */
+
+
+                    /**
+                     * The 'greater than or equal to' operator(>=)
+                     * 
+                     * example 1:
+                     * x = 6;
+                     * y = 4;
+                     * System.out.println(x >= y); This returns 'true' because 'x' greater than 'y'
+                     * 
+                     * example 2:
+                     * w = 2;
+                     * v = 2;
+                     * System.out.println(w >= v); This returns 'true' because 'w' is equal to 'v'
+                     */
+
+
+                    /**
+                     * The 'less than or equal to' operator(<=)
+                     * 
+                     * example 1:
+                     * x = 6;
+                     * y = 4;
+                     * System.out.println(x <= y); This returns 'false' because 'x' not less than or equal to 'y'
+                     * 
+                     * example 2:
+                     * w = 2;
+                     * v = 2;
+                     * System.out.println(w <= v); This returns 'true' because 'w' is equal to 'v'
+                     */
+
+
+        /**
+         * LOGICAL OPERATORS
+         * This operators are used to determine the logic between two values or variables.
+         * There are 3 logical operators in java:
+         * &&, ||, !
+         */
+                    /**
+                     * The 'logical AND' operator(&&)
+                     * This returns 'true' if both statements are true
+                     * 
+                     * example:
+                     * x = 6;
+                     * y = 4;
+                     * System.out.println((x > y) && (y < x));
+                     * This returns 'true' because 'x' is greater than 'y' AND 'y' is less than 'x'
+                     */
+
+
+                    /**
+                     * The 'logical OR' operator(&&)
+                     * This returns 'true' if one of the statements is true
+                     * 
+                     * example:
+                     * x = 6;
+                     * y = 4;
+                     * System.out.println((x > y) || (y > x));
+                     * This returns 'true' because 'x' is greater than 'y' even though 'y' is not greater than 'x'
+                     */
+
+
+                    /**
+                     * The 'logical NOT' operator(!)
+                     * This returns 'fasle' if the result of the statements is true
+                     * 
+                     * example 1:
+                     * x = 6;
+                     * y = 4;
+                     * System.out.println((x > y) && (y < x));
+                     * This returns 'false' because the result of the statement is 'true'
+                     * 
+                     * example 2:
+                     * x = 6;
+                     * y = 4;
+                     * System.out.println((x < y) && (y > x));
+                     * This returns 'true' because the result of the statement is 'false'
+                     * It gives the inverse of the result.
                      */
     }
 }
