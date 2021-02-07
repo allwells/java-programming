@@ -42,7 +42,82 @@ public class Strings {
          * How you ever wondered why we've been using the plus operator(+) in strings instead of in mathematical operations only?
          * Just take a chill pill...
          * The plus operator(+) can be used between strings to combine them. This is called 'CONCATENATION'
+         * Let's take an example
          */
+
+         String firstName = "YourFirstName";
+         String lastName = "YourLastName";
+
+         System.out.println("Concatenation using the plus operator: " + firstName + " " + lastName); // Outputs 'YourFirstName YourLastName'
+         // Note that i have added an empty string to create a space between firstName and lastName.
+
+         // You can also use the 'concat()' method to combine strings.
+         System.out.println("Concatenation using the 'concat()' method: " + firstName.concat(lastName));
+
+         /**
+          * SPECIAL CHARACTERS
+          */
+
+          // ESCAPE CHARATERS
+          // Because strings must be written in qoutes, java will misunderstand this string and generate and error.
+          // System.out.prinln("PiggyVest was formerly called "PiggyBank" ");
+          // The solution to this problem is the 'backslash escape character (\)'
+          // The backslash escape character turns special characters into strings.
+          //
+        //   |________________________________________________________________|
+          // |         |                     |            |                   |
+          // |   S/N   |  Escape Charater    |   Result   |   Description     |
+          // |_________|_____________________|____________|___________________|
+          // |         |                     |            |                   |
+          // |    1    |       \'            |      '     |   Single qoute    |
+          // |_________|_____________________|____________|___________________|
+          // |         |                     |            |                   |
+          // |    2    |       \"            |      "     |   Double qoute    |
+          // |_________|_____________________|____________|___________________|
+          // |         |                     |            |                   |
+          // |    3    |       \\            |      \     |   Backslash       |
+          // |_________|_____________________|____________|___________________|
+          // |         |                     |                                |
+          // |    4    |       \n            |      New Line                  |
+          // |_________|_____________________|________________________________|
+          // |         |                     |                                |
+          // |    5    |       \r            |      Carriage Return           |
+          // |_________|_____________________|________________________________|
+          // |         |                     |                                |
+          // |    6    |       \t            |      Tab                       |
+          // |_________|_____________________|________________________________|
+          // |         |                     |                                |
+          // |    7    |       \b            |      Backspace                 |
+          // |_________|_____________________|________________________________|
+          // |         |                     |                                |
+          // |    8    |       \f            |      Form Feed                 |
+          // |_________|_____________________|________________________________|
+
+
+          // The sequence, \', inserts a single qoute in a string.
+          System.out.println("This inserts \'Single Quotes\' in a string.");
+
+          // The sequence, \", inserts a double qoute in a string.
+          System.out.println("This inserts \"Double Quotes\" in a string.");
+
+          // The sequence, \\, inserts a backslash in a string.
+          System.out.println("This inserts \\Backslash in a string ");
+
+          // The sequence, \n, creates a new line.
+          System.out.println("This create a new\n line.");
+
+          // The sequence, \r, just like the function of the 'Enter' button on our keyboards,
+          // returns "line" string to a new line. Just like what this,\n, does.
+          System.out.println("This returns a string to a new\rline");
+
+          // The sequence, \t, functions same way as the 'tab' button on our keyboards.
+          System.out.println("\tPiggyVest was formerly called PiggyBank");
+
+          // The sequence, \b, this deletes the letters from a string just like the "<-backspace" button on our keyboards.
+          System.out.println("This will delete\b the 'e' from the word 'delete'");
+
+          // The sequence, \f, 
+          System.out.println("This will form feed\f the string");
     }
     
 }
