@@ -11,6 +11,7 @@
     <li>Type Casting</li>
     <li>Operators</li>
     <li>Strings</li>
-    <li>JavaMath</li>
+    <li>Java Math</li>
     <li>Booleans</li>
+    <li>If...Else Statements</li>
 </ol>
