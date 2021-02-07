@@ -12,4 +12,5 @@
     <li>Operators</li>
     <li>Strings</li>
     <li>JavaMath</li>
+    <li>Booleans</li>
 </ol>
