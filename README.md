@@ -10,4 +10,5 @@
     <li>Data Types</li>
     <li>Type Casting</li>
     <li>Operators</li>
+    <li>Strings</li>
 </ol>
