@@ -116,8 +116,35 @@ public class Strings {
           // The sequence, \b, this deletes the letters from a string just like the "<-backspace" button on our keyboards.
           System.out.println("This will delete\b the 'e' from the word 'delete'");
 
-          // The sequence, \f, 
+          // The sequence, \f, forces the printed string to be ejected from the current page and to continue printing at the top of another. 
+          // Often, it will also cause a carriage return.
           System.out.println("This will form feed\f the string");
+
+
+          /**
+           * ADDING NUMBERS AND STRINGS
+           * NOTE: Java uses the + operator for both addition and concatenation.
+           * Numbers are Added, String are Concatenated.
+           */
+
+           // Example
+           int x = 3;
+           int y = 4;
+           int z = x + y;
+           System.out.println(z); // Outputs 7, as an integer/number.
+
+           String u = "3";
+           String v = "4";
+           String w = u + v;
+           System.out.println(w); // Outputs 34, as a string.
+
+           int r = 3;
+           String s = "4";
+           String t = r + s;
+           System.out.println(t); // Outputs 34, as a string.
+           // If you add a number and a string, the result will be a string concatenation.
+           
+
     }
     
 }
