@@ -11,4 +11,5 @@
     <li>Type Casting</li>
     <li>Operators</li>
     <li>Strings</li>
+    <li>JavaMath</li>
 </ol>
