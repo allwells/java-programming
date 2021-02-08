@@ -46,7 +46,8 @@ public class JavaMath {
          System.out.println(randomNumber);
 
 
-         // You can check out other Math methods on this web site https://www.w3schools.com/java/java_ref_math.asp
+         // Exercise 1.0
+         // Research other Mathematical methods in java
 
     }
     
